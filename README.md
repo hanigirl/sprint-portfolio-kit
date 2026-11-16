@@ -2,6 +2,19 @@
 
 מלווה דֵיזיין-ספרינט שהופך את **התהליך** לתיק עבודות — לא רק את העיצוב הסופי.
 
+## התקנה (לתלמידים)
+
+ב-Claude Code, הדביקו שתי השורות האלה:
+
+```
+/plugin marketplace add hanigirl/sprint-portfolio-kit
+/plugin install sprint-portfolio@sprint-portfolio-kit
+```
+
+ואז פותחים ספרינט עם `/start-sprint ./my-project`.
+
+---
+
 הרעיון: תיק עבודות טוב הוא בדיוק החומר שנמחק אם לא תופסים אותו בזמן אמת — הכיוונים שנפסלו, ה"למה פסלנו", והזזת המדדים. הפלאגין תופס את זה **תוך כדי הספרינט** לתוך תיקיית הפרויקט של התלמיד, ובסוף מרכיב מהתיקייה **דף case-study מוכן-לפורטפוליו**.
 
 הסוכן חסר-מצב: הזיכרון חי בקבצים שבתיקייה, לא בשיחה. לכן הכול נייד, ניתן לבדיקה, ושורד גם אם הסשן נשבר.
@@ -20,15 +33,6 @@
 - `/build-portfolio [נתיב]` — בונה את תיק העבודות בסוף.
 
 **תבנית** — שלד תיקיית פרויקט (`brief` + `resources/ research/ decisions/ versions/ metrics/` + `journal`).
-
-## התקנה (לתלמידים)
-
-ב-Claude Code:
-
-```
-/plugin marketplace add hanigirl/sprint-portfolio-kit
-/plugin install sprint-portfolio@sprint-portfolio-kit
-```
 
 ## איך עובדים
 
