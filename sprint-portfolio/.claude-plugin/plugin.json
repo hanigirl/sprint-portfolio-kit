@@ -1,0 +1,9 @@
+{
+  "name": "sprint-portfolio",
+  "version": "1.0.0",
+  "description": "A design-sprint companion for students: capture decisions, rejected directions, pivots and metric moves live into the project folder, then compile it into a portfolio-ready web case study. Pairs the design-journal (capture) and sprint-portfolio (compile) skills.",
+  "author": { "name": "Hani Buskila — UXTRA" },
+  "keywords": ["design-sprint", "portfolio", "case-study", "decision-journal", "design-education", "metrics", "rtl"],
+  "homepage": "https://github.com/hanigirl/sprint-portfolio-kit",
+  "license": "MIT"
+}

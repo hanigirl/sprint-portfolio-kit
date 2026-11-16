@@ -1,0 +1,18 @@
+{
+    "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+    "name": "sprint-portfolio-kit",
+    "version": "1.0.0",
+    "description": "A design-sprint companion that captures decisions, rejected directions, pivots and metric moves live into the student's project folder, then compiles the whole folder into a portfolio-ready web case study.",
+    "owner": {
+        "name": "Hani Buskila — UXTRA",
+        "url": "https://github.com/hanigirl/sprint-portfolio-kit"
+    },
+    "plugins": [
+        {
+            "name": "sprint-portfolio",
+            "description": "Live-capture design decisions, metric moves and research findings into a project folder during a sprint, then build a portfolio-ready RTL case study from it. Includes /start-sprint, /log-decision and /build-portfolio.",
+            "source": "./sprint-portfolio",
+            "category": "design"
+        }
+    ]
+}
